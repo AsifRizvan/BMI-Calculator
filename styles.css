@@ -1,0 +1,46 @@
+body {
+    background-color: #000000ce;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.progress {
+    height: 30px;
+    border-radius: 1rem;
+    background-color: #f0f0f0;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 1rem;
+    transition: width 0.5s ease;
+}
+
+#bmiProgressBarContainer {
+    width: 100%;
+    position: relative;
+}
+
+.label-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    bottom: -25px; /* Adjust as needed */
+    font-size: 14px;
+    color: #333;
+}
