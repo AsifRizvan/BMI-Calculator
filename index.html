@@ -12,6 +12,26 @@
     <div class="container d-flex flex-column justify-content-center align-items-center vh-100">
         <div class="card shadow-lg p-4" style="max-width: 500px; width: 100%; border-radius: 1rem;">
             <h3 class="text-center mb-4">BMI Calculator</h3>
+
+            <!-- Gender Selection -->
+            <div class="mb-3">
+                <label class="form-label">Gender:</label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="male" value="male" checked>
+                    <label class="form-check-label" for="male">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                    <label class="form-check-label" for="female">Female</label>
+                </div>
+            </div>
+
+            <!-- Age Input -->
+            <div class="mb-3">
+                <label for="age" class="form-label">Age:</label>
+                <input type="number" class="form-control" id="age" placeholder="Enter your age">
+            </div>
+
             <div class="mb-3 mt-4">
                 <label for="weight" class="form-label">Weight (kg):</label>
                 <input type="number" class="form-control" id="weight" placeholder="Enter your weight">
